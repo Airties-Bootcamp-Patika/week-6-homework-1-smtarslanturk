@@ -1,0 +1,38 @@
+Install AWS-CDK
+
+---------First Install AWS-CLI on MAC---------
+source: https://www.youtube.com/watch?v=BNH4i7CQ4Oc&ab_channel=DennisTraub 
+
+1: Install and update for all users using the macOS command line:
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o AWSCLIV2.pkg
+sudo installer -pkg AWSCLIV2.pkg -target /
+rm AWSCLIV2.pkg
+
+2: Verify the installation:
+$ which aws
+/usr/local/bin/aws 
+$ aws --version
+
+3: Quick configuration with aws configure:
+$ aws configure
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: us-west-2
+Default output format [None]: json
+
+4: See which user u connect 
+$ aws sts get-caller-identity
+
+------------Install npm on Mac OS--------------
+brew -v
+brew update
+brew install node
+node -v
+npm -v
+
+------------Install the AWS Cloud Development Kit (AWS CDK) on Mac OS--------------
+https://www.youtube.com/watch?v=v1U_6Dq6wog&ab_channel=DennisTraub
+npm install -g aws-cdk
+cdk --version
+
+
