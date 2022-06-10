@@ -15,8 +15,8 @@ $ aws --version
 
 3: Quick configuration with aws configure:
 $ aws configure
-AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
-AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+AWS Access Key ID [None]: {Acces_Key}
+AWS Secret Access Key [None]: {Secret_Key}
 Default region name [None]: us-west-2
 Default output format [None]: json
 
